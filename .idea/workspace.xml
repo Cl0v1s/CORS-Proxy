@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b4bbdc-fd61-4cc3-a9bb-8a3208115821" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Applicative/API.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controllers/APIController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controllers/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/Annotations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/DatabaseStorage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/Engine.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/Storage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/StorageItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/annotation_parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/doc_comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/acceptance_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/addendum_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/all_tests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/annotation_parser_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/annotation_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/constrained_annotation_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/doc_comment_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/fixtures/namespaced_annotation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/addendum/annotations/tests/namespaces_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Chapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/StorageItem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/StorageItem@$id.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/StorageItem@$storage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/User@$password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/User@$rights.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/User@$username.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/addendum/Maslosoft.Addendum.Builder.Builder@addendum/_ns.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +26,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+            <state relative-caret-position="338">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#7#63#0#PHP" expanded="true" />
               </folding>
@@ -125,7 +106,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,6 +134,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,11 +237,12 @@
       <workItem from="1502792824504" duration="2433000" />
       <workItem from="1502798581842" duration="2265000" />
       <workItem from="1503600312645" duration="7026000" />
+      <workItem from="1503611109171" duration="743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13153000" />
+    <option name="totallyTimeSpent" value="13896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="870" extended-state="6" />
@@ -296,6 +278,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1503343512880" expanded="true" signature="0:271" ph="&lt;IfModule mod_rewrite.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -316,14 +318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.php" />
     <entry file="file://$PROJECT_DIR$/Controllers/APIController.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,14 +338,7 @@
     <entry file="file://$PROJECT_DIR$/Core/DatabaseStorage.php" />
     <entry file="file://$PROJECT_DIR$/Applicative/API.php" />
     <entry file="file://$PROJECT_DIR$/Controllers/APIController.php" />
-    <entry file="file://$PROJECT_DIR$/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.php" />
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -361,18 +349,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CookieContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CookieContainer.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+        <state relative-caret-position="338">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#7#63#0#PHP" expanded="true" />
           </folding>

@@ -42,16 +42,22 @@ $app->any('/', function (Request $request, Response $response) {
             $headers[$name] = $header[0];
     }
     // Réglage cookies
+    $domain = explode("/", $_GET["url"])[2];
+    $domain = str_replace("http://", "", $domain);
+    $domain = str_replace("https://", "", $domain);
+    $domain = ".".$domain;
     if(isset($_SESSION["cookies"]))
     {
         $str = "";
         foreach ($_SESSION["cookies"] as $key => $value)
         {
-            $str .= $value.";";
+            $value = explode(";", $value);
+            if(count($value) >= 3 && strpos($domain,explode("=", $value[3])[1]) === false)
+                continue;
+            $str .= $value[0].";";
         }
         $headers["cookie"] =  $str;
     }
-    var_dump($headers);
     $target = Requests::request($_GET["url"], $headers, $request->getParsedBody(), $request->getMethod());
     //var_dump($target->headers->getValues("set-cookie"));
 
@@ -63,7 +69,7 @@ $app->any('/', function (Request $request, Response $response) {
         foreach($target->headers->getValues("set-cookie") as $cookie)
         {
             $name = explode("=", $cookie)[0];
-            $_SESSION["cookies"][$name] = explode(";", $cookie)[0];
+            $_SESSION["cookies"][$name] = $cookie;
         }
     }
 
